@@ -1,0 +1,4 @@
+"0","results_func<-function(predictions,tests){ #predictions and tests are both vectors"
+"0","  cf<-confusionMatrix(data=predictions,reference=tests)"
+"0","  c(cf$overall['Accuracy'],cf$byClass['Sensitivity'],cf$byClass['Precision'],cf$byClass['F1'])"
+"0","  }"

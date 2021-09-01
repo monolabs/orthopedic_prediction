@@ -1,0 +1,1 @@
+"0","predict(fit_glm,newdata=test_set1,type=""prob"")%>%arrange(desc(Abnormal))%>%head"

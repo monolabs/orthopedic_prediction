@@ -1,0 +1,2 @@
+"0","tab_rf_boot1<-tibble(data=""Data 1"",model=""rf_bootstrap"",accuracy=results_rf[1],recall=results_rf[2],precision=results_rf[3],F1=results_rf[4])"
+"0","tab_rf_boot1"

@@ -1,0 +1,5 @@
+"0","fit_glm<-train(class~degree_spondylolisthesis+pelvic_incidence+lumbar_lordosis_angle+sacral_slope+pelvic_radius+pelvic_tilt,"
+"0","               method=""glm"",data=train_set1,family=""binomial"")"
+"2","glm.fit: fitted probabilities numerically 0 or 1 occurred"
+"0","predictions_glm<-predict(fit_glm,newdata=test_set1,type=""raw"")"
+"0","results_glm<-results_func(predictions_glm,test_set1$class)"

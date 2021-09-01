@@ -1,0 +1,2 @@
+"0","tab_rf_cv2<-tibble(data=""Data 2"",model=""rf_cv"",accuracy=results_rf_cv2[1],recall=results_rf_cv2[2],precision=results_rf_cv2[3],F1=results_rf_cv2[4])"
+"0","tab_rf_cv2"

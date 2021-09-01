@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576923571894.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "948886340",
+    "id" : "3A0478B0",
+    "lastKnownWriteTime" : 1576943778,
+    "last_content_update" : 1576943779101,
+    "path" : "C:/Users/PendragonS/projects/Analysis/orthopedic_patients/rda/orthopedic_patients.Rmd",
+    "project_path" : "orthopedic_patients.Rmd",
+    "properties" : {
+        "cursorPosition" : "327,66",
+        "last_setup_crc32" : "E79425C2bb338d19",
+        "scrollLine" : "325",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

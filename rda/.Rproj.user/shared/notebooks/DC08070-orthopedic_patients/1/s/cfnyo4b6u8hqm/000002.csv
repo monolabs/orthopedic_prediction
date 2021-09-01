@@ -1,0 +1,4 @@
+"0","fit_glm2<-train(class~degree_spondylolisthesis+pelvic_incidence+lumbar_lordosis_angle+sacral_slope+pelvic_radius+pelvic_tilt,"
+"0","               method=""glm"",data=train_set1%>%filter(degree_spondylolisthesis<=50),family=""binomial"")"
+"0","predictions_glm2<-predict(fit_glm2,newdata=test_set1,type=""raw"")"
+"0","results_glm2<-results_func(predictions_glm2,test_set1$class)"

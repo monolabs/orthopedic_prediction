@@ -1,0 +1,5 @@
+"0","fit_knn_cv1<-train(class~degree_spondylolisthesis+pelvic_incidence+lumbar_lordosis_angle+sacral_slope+pelvic_radius+pelvic_tilt,"
+"0","               method=""knn"",data=train_set1,tuneLength=20,trControl=(trainControl(method=""cv"",number=10)))"
+"0","predictions_knn_cv1<-predict(fit_knn_cv1,newdata=test_set1,type=""raw"")"
+"0","results_knn_cv1<-results_func(predictions_knn_cv1,test_set1$class)"
+"0","fit_knn_cv1$results%>%arrange(desc(Accuracy))%>%head"

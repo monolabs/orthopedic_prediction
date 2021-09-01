@@ -1,0 +1,5 @@
+"0","fit_rf_cv2<-train(class~degree_spondylolisthesis+pelvic_incidence+lumbar_lordosis_angle+sacral_slope+pelvic_radius+pelvic_tilt,"
+"0","               method=""rf"",data=train_set1,tuneLength=5,trControl=trainControl(method=""cv"",number=10))"
+"0","predictions_rf_cv2<-predict(fit_rf_cv2,newdata=test_set1,type=""raw"")"
+"0","results_rf_cv2<-results_func(predictions_rf_cv2,test_set1$class)"
+"0","fit_rf_cv2$results%>%arrange(desc(Accuracy))%>%head"

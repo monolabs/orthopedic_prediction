@@ -1,0 +1,4 @@
+"0","dat1%>%gather(type,value,-class)%>%"
+"0","  ggplot(aes(value))+"
+"0","    geom_histogram(binwidth=5)+"
+"0","    facet_grid(.~type)"

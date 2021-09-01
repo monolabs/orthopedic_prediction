@@ -1,0 +1,2 @@
+"0","tab_knn_boot1<-tibble(data=""Data 1"",model=""knn_bootstrap"",accuracy=results_knn[1],recall=results_knn[2],precision=results_knn[3],F1=results_knn[4])"
+"0","tab_knn_boot1"

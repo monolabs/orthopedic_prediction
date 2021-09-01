@@ -1,0 +1,2 @@
+"0","tab_knn_cv1<-tibble(data=""Data 1"",model=""knn_cv"",accuracy=results_knn_cv1[1],recall=results_knn_cv1[2],precision=results_knn_cv1[3],F1=results_knn_cv1[4])"
+"0","tab_knn_cv1"

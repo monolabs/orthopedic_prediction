@@ -1,0 +1,2 @@
+"0","tab_glm<-tibble(data=""Data 1"",model=""glm"",accuracy=results_glm2[1],recall=results_glm2[2],precision=results_glm2[3],F1=results_glm2[4])"
+"0","tab_glm"
